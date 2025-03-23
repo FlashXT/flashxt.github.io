@@ -17,6 +17,13 @@ body {
   background-color: #000000;
 }
 
+:root {
+  -webkit-tap-highlight-color: #0000;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
 #main {
   display: flex;
   flex-direction: column;
